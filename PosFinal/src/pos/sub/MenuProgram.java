@@ -11,8 +11,8 @@ import pos.vo.MenuVO;
 
 public class MenuProgram {
 
-    private final MenuDAO menuDAO = new MenuDAO();
-    private final CategoryDAO categoryDAO = new CategoryDAO();
+    private MenuDAO menuDAO = new MenuDAO();
+    private CategoryDAO categoryDAO = new CategoryDAO();
 
     public void menuManagementMenu(Scanner sc) throws SQLException {
         while (true) {

@@ -33,25 +33,12 @@ public class PosMain {
 						System.out.println("********************************************************************");
 						return;
 	                
-//					case 1:	// 주문/결재 호출
-//						OrderProgram orderProgram = new OrderProgram();
-//						orderProgram.orderPaymentMenu(sc);
-//	                    break;
-//	                
-//					case 2:	// 매출 호출
-//						SaleProgram saleProgram = new SaleProgram();
-//						saleProgram.showSalesMenu(sc);
-//	                    break;
 					
 					case 3: // 메뉴관리 호출
 						MenuProgram menuProgram = new MenuProgram();
 						menuProgram.menuManagementMenu(sc);
 						break;
 					
-//					case 4: // 카테고리 호출
-//						CategoryProgram categoryProgram= new CategoryProgram();
-//						categoryProgram.categoryManagementMenu(sc);
-//						break;
 					
 					default:
 						System.out.println("다시 입력해주세요.");
