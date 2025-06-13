@@ -6,7 +6,6 @@ import java.util.Scanner;
 import pos.sub.MenuProgram;
 
 
-
 public class PosMain {
 	public static void main(String[] args) {
 		
